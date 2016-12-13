@@ -1,0 +1,48 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+    color: #F4F4F4;  
+} 
+
+.box{
+	width: 100%;
+	height: 100%; 
+	padding: 5%;
+}  
+
+.nav-wrapper ul li i{
+	line-height: 55px;
+}   
+
+.parabens, .alert, .ultimo{
+	position: fixed; 
+	padding: 50px 20px;
+	width: 100%;
+	height: 100%; 
+	background: rgba(0, 0, 0, .8); 
+	z-index: 1 !important;
+} 
+
+.parabens b, .alert b, .ultimo b{
+	color: #FFF; 
+}
+
+.parabens p, .alert p, .ultimo p{
+	margin-top: 50px;
+	color: #FFF;
+	font-size: 1.3em;
+	text-align: center !important;
+}
+
+.parabens button, .alert button, .ultimo button{ 
+	padding: 5px 10px;
+	border: 1px solid #FFF;
+	border-radius: 5px;
+	font-size: 1.1em;
+	color: #FFF;
+	background-color: #FF4040;
+}

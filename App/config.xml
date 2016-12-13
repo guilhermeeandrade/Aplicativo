@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.quiz.meuapp"
+    versionCode = "10"
+    version     = "1.0.0" >  
+    <name>Meu App</name> 
+    <description>Criado por Guilher de Andrade Rocha.</description> 
+    <author href="https:ecoproof.com.br" email="guilhermee.andrade@hotmail.com">Guilher de Andrade Rocha.</author> 
+    <icon scr="icon.png" />  
+</widget>
