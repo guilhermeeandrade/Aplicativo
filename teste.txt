@@ -2,17 +2,16 @@
 
 	// inicializa os termos 
 	$a = 1;
-	$b = 0;
+	$b = 1;
 	
 	//loop até atingir 150 
 	enquanto ($a <150) {
-		// saída do termo atual 
-  		echo $a.'';
 
-	  	// calcula o próximo termo 
-	  	$c = $a;
+		// mostra os dois termos atuais 
+		echo $a.''.$b.'';
+
+		// calcula os próximos dois termos
 		$a = $a + $b;
-		$b = $c;
+		$b = $a + $b;
 	}
-
 ?>
