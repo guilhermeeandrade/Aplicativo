@@ -1,0 +1,18 @@
+<?php
+
+	// inicializa os termos 
+	$a = 1;
+	$b = 0;
+	
+	//loop até atingir 150 
+	enquanto ($a <150) {
+		// saída do termo atual 
+  		echo $a.'';
+
+	  	// calcula o próximo termo 
+	  	$c = $a;
+		$a = $a + $b;
+		$b = $c;
+	}
+
+?>
